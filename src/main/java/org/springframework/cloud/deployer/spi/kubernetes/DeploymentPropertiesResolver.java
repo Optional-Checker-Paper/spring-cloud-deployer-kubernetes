@@ -628,6 +628,7 @@ class DeploymentPropertiesResolver {
 		return null;
 	}
 
+  @SuppressWarnings("optional:introduce.eliminate") // introduce-eliminate : unnecessary optional instantiation
 	private Container containerFromProps(InitContainer initContainerProps) {
 		return new ContainerBuilder()
 				.withName(initContainerProps.getContainerName())
