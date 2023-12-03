@@ -1,0 +1,15 @@
+<problems>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/org/springframework/cloud/deployer/spi/kubernetes/KubernetesTaskLauncher.java</file>
+  <line>314</line>
+  <module>spring-cloud-deployer-kubernetes</module>
+  <package>org.springframework.cloud.deployer.spi.kubernetes</package>
+  <entry_point TYPE="method" FQNAME="org.springframework.cloud.deployer.spi.kubernetes.KubernetesTaskLauncher io.fabric8.kubernetes.api.model.KubernetesResourceList&lt;?&gt; getTaskResources(java.util.Optional&lt;java.lang.String&gt; taskName, boolean isCreateJob)" />
+  <problem_class id="OptionalUsedAsFieldOrParameterType" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'Optional' used as field or parameter type</problem_class>
+  <description>&lt;code&gt;Optional&lt;String&gt;&lt;/code&gt; used as type for parameter 'taskName'</description>
+  <highlighted_element>Optional&lt;String&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>157</offset>
+  <length>16</length>
+</problem>
+</problems>
