@@ -295,7 +295,7 @@ public class KubernetesTaskLauncher extends AbstractKubernetesDeployer implement
 		}
 	}
 
-	@SuppressWarnings("OptionalUsedAsFieldOrParameterType") // intellij-suppression-optional-as-parameter
+	@SuppressWarnings("OptionalUsedAsFieldOrParameterType") // intellij-suppression-optional-used-as-parameter
 	private List<String> getIdsForTasks(Optional<String> taskName, boolean isCreateJob) {
 		List<String> ids = new ArrayList<>();
 		try {
@@ -312,7 +312,7 @@ public class KubernetesTaskLauncher extends AbstractKubernetesDeployer implement
 		return ids;
 	}
 
-	@SuppressWarnings("OptionalUsedAsFieldOrParameterType") // intellij-suppression-optional-as-parameter
+	@SuppressWarnings("OptionalUsedAsFieldOrParameterType") // intellij-suppression-optional-used-as-parameter
 	private KubernetesResourceList<?>  getTaskResources(Optional<String> taskName, boolean isCreateJob) {
 		KubernetesResourceList<?> resourceList;
 		if (taskName.isPresent()) {
