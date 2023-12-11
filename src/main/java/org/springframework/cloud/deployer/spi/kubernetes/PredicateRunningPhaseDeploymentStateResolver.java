@@ -43,10 +43,10 @@ public class PredicateRunningPhaseDeploymentStateResolver implements RunningPhas
 		this.properties = properties;
 	}
 
-  @SuppressWarnings({
-    "unchecked",
-    "optional:method.invocation" // application-invariant : conditions is never empty
-  }) 
+	@SuppressWarnings({
+		"unchecked",
+		"optional:method.invocation" // list `conditions` is never empty, so `stream.reduce()` returns a present Optional
+	})
 	public DeploymentState resolve(ContainerStatus containerStatus) {
 
 		Stream<Predicate<ContainerStatus>> conditionsStream = Stream.of(conditions);
