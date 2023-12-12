@@ -45,7 +45,7 @@ public class PredicateRunningPhaseDeploymentStateResolver implements RunningPhas
 
 	@SuppressWarnings({
 		"unchecked",
-		"optional:method.invocation" // list `conditions` is never empty, so `stream.reduce()` returns a present Optional
+		"optional:method.invocation" // non-empty stream : list `conditions` is never empty, so `stream.reduce()` returns a present Optional
 	})
 	public DeploymentState resolve(ContainerStatus containerStatus) {
 
