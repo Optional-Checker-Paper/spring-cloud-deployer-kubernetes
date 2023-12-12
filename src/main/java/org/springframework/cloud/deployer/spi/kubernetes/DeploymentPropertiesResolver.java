@@ -629,8 +629,8 @@ class DeploymentPropertiesResolver {
 	}
 
   @SuppressWarnings({
-    "optional:introduce.eliminate", // introduce-eliminate
-    "optional:optional.collection" // optional-collection
+    "optional:introduce.eliminate", // style-introduce-eliminate
+    "optional:optional.collection" // style-optional-collection
   })
 	private Container containerFromProps(InitContainer initContainerProps) {
 		return new ContainerBuilder()
