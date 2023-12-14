@@ -1,0 +1,73 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -----< org.springframework.cloud:spring-cloud-deployer-kubernetes >-----
+[INFO] Building spring-cloud-deployer-kubernetes 2.8.4-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+Downloading from snapshots-repo: https://oss.sonatype.org/content/repositories/snapshots/org/springframework/cloud/spring-cloud-deployer-spi/2.8.4-SNAPSHOT/maven-metadata.xml
+Downloading from snapshots-repo: https://oss.sonatype.org/content/repositories/snapshots/org/springframework/cloud/spring-cloud-deployer-parent/2.8.4-SNAPSHOT/maven-metadata.xml
+Downloading from snapshots-repo: https://oss.sonatype.org/content/repositories/snapshots/org/springframework/cloud/spring-cloud-dataflow-build/2.10.4-SNAPSHOT/maven-metadata.xml
+Downloading from snapshots-repo: https://oss.sonatype.org/content/repositories/snapshots/org/springframework/cloud/spring-cloud-deployer-dependencies/2.8.4-SNAPSHOT/maven-metadata.xml
+Downloading from snapshots-repo: https://oss.sonatype.org/content/repositories/snapshots/org/springframework/cloud/spring-cloud-dataflow-dependencies-parent/2.10.4-SNAPSHOT/maven-metadata.xml
+Downloading from snapshots-repo: https://oss.sonatype.org/content/repositories/snapshots/org/springframework/cloud/spring-cloud-dataflow-build-dependencies/2.10.4-SNAPSHOT/maven-metadata.xml
+Downloading from snapshots-repo: https://oss.sonatype.org/content/repositories/snapshots/org/springframework/cloud/spring-cloud-deployer-resource-docker/2.8.4-SNAPSHOT/maven-metadata.xml
+Downloading from snapshots-repo: https://oss.sonatype.org/content/repositories/snapshots/org/springframework/cloud/spring-cloud-deployer-spi-test/2.8.4-SNAPSHOT/maven-metadata.xml
+Downloading from snapshots-repo: https://oss.sonatype.org/content/repositories/snapshots/org/springframework/cloud/spring-cloud-deployer-spi/2.8.3-SNAPSHOT/maven-metadata.xml
+Downloading from snapshots-repo: https://oss.sonatype.org/content/repositories/snapshots/org/springframework/cloud/spring-cloud-deployer-resource-maven/2.8.3-SNAPSHOT/maven-metadata.xml
+Downloading from snapshots-repo: https://oss.sonatype.org/content/repositories/snapshots/org/springframework/cloud/spring-cloud-deployer-spi-test-app/2.8.4-SNAPSHOT/maven-metadata.xml
+[INFO] 
+[INFO] --- checkstyle:3.1.0:check (checkstyle-validation) @ spring-cloud-deployer-kubernetes ---
+Downloading from apache.snapshots: https://repository.apache.org/snapshots/org/springframework/cloud/spring-cloud-dataflow-build-tools/2.10.3-SNAPSHOT/maven-metadata.xml
+[INFO] Starting audit...
+Audit done.
+[INFO] 
+[INFO] --- checkstyle:3.1.0:check (no-http-checkstyle-validation) @ spring-cloud-deployer-kubernetes ---
+[INFO] 
+[INFO] --- resources:3.1.0:resources (default-resources) @ spring-cloud-deployer-kubernetes ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 0 resource
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- compiler:3.10.1:compile (default-compile) @ spring-cloud-deployer-kubernetes ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 41 source files to /tmp/experiments/optional-paper-counts-repos/spring-cloud-deployer-kubernetes/target/classes
+[WARNING] /tmp/experiments/optional-paper-counts-repos/spring-cloud-deployer-kubernetes/src/main/java/org/springframework/cloud/deployer/spi/kubernetes/KubernetesTaskLauncher.java:[154,45] [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+[WARNING] /tmp/experiments/optional-paper-counts-repos/spring-cloud-deployer-kubernetes/src/main/java/org/springframework/cloud/deployer/spi/kubernetes/KubernetesTaskLauncher.java:[154,45] [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+[WARNING] /tmp/experiments/optional-paper-counts-repos/spring-cloud-deployer-kubernetes/src/main/java/org/springframework/cloud/deployer/spi/kubernetes/KubernetesTaskLauncher.java:[154,42] [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+[WARNING] /tmp/experiments/optional-paper-counts-repos/spring-cloud-deployer-kubernetes/src/main/java/org/springframework/cloud/deployer/spi/kubernetes/KubernetesTaskLauncher.java:[179,54] [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+[WARNING] /tmp/experiments/optional-paper-counts-repos/spring-cloud-deployer-kubernetes/src/main/java/org/springframework/cloud/deployer/spi/kubernetes/KubernetesTaskLauncher.java:[179,54] [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+[WARNING] /tmp/experiments/optional-paper-counts-repos/spring-cloud-deployer-kubernetes/src/main/java/org/springframework/cloud/deployer/spi/kubernetes/KubernetesTaskLauncher.java:[179,48] [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+[WARNING] /tmp/experiments/optional-paper-counts-repos/spring-cloud-deployer-kubernetes/src/main/java/org/springframework/cloud/deployer/spi/kubernetes/KubernetesTaskLauncher.java:[298,54] [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+[WARNING] /tmp/experiments/optional-paper-counts-repos/spring-cloud-deployer-kubernetes/src/main/java/org/springframework/cloud/deployer/spi/kubernetes/KubernetesTaskLauncher.java:[301,61] [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+[WARNING] /tmp/experiments/optional-paper-counts-repos/spring-cloud-deployer-kubernetes/src/main/java/org/springframework/cloud/deployer/spi/kubernetes/KubernetesTaskLauncher.java:[308,69] [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+[WARNING] /tmp/experiments/optional-paper-counts-repos/spring-cloud-deployer-kubernetes/src/main/java/org/springframework/cloud/deployer/spi/kubernetes/KubernetesTaskLauncher.java:[314,70] [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+[WARNING] /tmp/experiments/optional-paper-counts-repos/spring-cloud-deployer-kubernetes/src/main/java/org/springframework/cloud/deployer/spi/kubernetes/KubernetesTaskLauncher.java:[316,24] [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.isPresent() [METHOD]
+[WARNING] /tmp/experiments/optional-paper-counts-repos/spring-cloud-deployer-kubernetes/src/main/java/org/springframework/cloud/deployer/spi/kubernetes/KubernetesTaskLauncher.java:[316,14] [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.isPresent() [METHOD]
+[WARNING] /tmp/experiments/optional-paper-counts-repos/spring-cloud-deployer-kubernetes/src/main/java/org/springframework/cloud/deployer/spi/kubernetes/KubernetesTaskLauncher.java:[318,76] [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.get() [METHOD]
+[WARNING] /tmp/experiments/optional-paper-counts-repos/spring-cloud-deployer-kubernetes/src/main/java/org/springframework/cloud/deployer/spi/kubernetes/KubernetesTaskLauncher.java:[318,72] [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.get() [METHOD]
+[WARNING] /tmp/experiments/optional-paper-counts-repos/spring-cloud-deployer-kubernetes/src/main/java/org/springframework/cloud/deployer/spi/kubernetes/KubernetesTaskLauncher.java:[321,68] [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.get() [METHOD]
+[WARNING] /tmp/experiments/optional-paper-counts-repos/spring-cloud-deployer-kubernetes/src/main/java/org/springframework/cloud/deployer/spi/kubernetes/KubernetesTaskLauncher.java:[321,64] [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.get() [METHOD]
+[WARNING] /tmp/experiments/optional-paper-counts-repos/spring-cloud-deployer-kubernetes/src/main/java/org/springframework/cloud/deployer/spi/kubernetes/AbstractKubernetesDeployer.java:[153,32] [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+[WARNING] /tmp/experiments/optional-paper-counts-repos/spring-cloud-deployer-kubernetes/src/main/java/org/springframework/cloud/deployer/spi/kubernetes/AbstractKubernetesDeployer.java:[156,20] [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+[WARNING] /tmp/experiments/optional-paper-counts-repos/spring-cloud-deployer-kubernetes/src/main/java/org/springframework/cloud/deployer/spi/kubernetes/AbstractKubernetesDeployer.java:[158,113] [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.orElse(T) [METHOD]
+[WARNING] /tmp/experiments/optional-paper-counts-repos/spring-cloud-deployer-kubernetes/src/main/java/org/springframework/cloud/deployer/spi/kubernetes/AbstractKubernetesDeployer.java:[158,106] [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.orElse(T) [METHOD]
+[WARNING] /tmp/experiments/optional-paper-counts-repos/spring-cloud-deployer-kubernetes/src/main/java/org/springframework/cloud/deployer/spi/kubernetes/DeploymentPropertiesResolver.java:[637,90] [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.orElse(T) [METHOD]
+[WARNING] /tmp/experiments/optional-paper-counts-repos/spring-cloud-deployer-kubernetes/src/main/java/org/springframework/cloud/deployer/spi/kubernetes/DeploymentPropertiesResolver.java:[637,83] [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.orElse(T) [METHOD]
+[WARNING] /tmp/experiments/optional-paper-counts-repos/spring-cloud-deployer-kubernetes/src/main/java/org/springframework/cloud/deployer/spi/kubernetes/DeploymentPropertiesResolver.java:[637,45] [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+[WARNING] /tmp/experiments/optional-paper-counts-repos/spring-cloud-deployer-kubernetes/src/main/java/org/springframework/cloud/deployer/spi/kubernetes/DeploymentPropertiesResolver.java:[637,34] [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+[WARNING] /tmp/experiments/optional-paper-counts-repos/spring-cloud-deployer-kubernetes/src/main/java/org/springframework/cloud/deployer/spi/kubernetes/KubernetesAppInstanceStatus.java:[211,23] [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.orElse(T) [METHOD]
+[WARNING] /tmp/experiments/optional-paper-counts-repos/spring-cloud-deployer-kubernetes/src/main/java/org/springframework/cloud/deployer/spi/kubernetes/KubernetesAppInstanceStatus.java:[211,16] [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.orElse(T) [METHOD]
+[WARNING] /tmp/experiments/optional-paper-counts-repos/spring-cloud-deployer-kubernetes/src/main/java/org/springframework/cloud/deployer/spi/kubernetes/KubernetesAppInstanceStatus.java:[209,20] [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<U>map(java.util.function.Function<? super T,? extends U>) [METHOD]
+[WARNING] /tmp/experiments/optional-paper-counts-repos/spring-cloud-deployer-kubernetes/src/main/java/org/springframework/cloud/deployer/spi/kubernetes/KubernetesAppInstanceStatus.java:[209,16] [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<U>map(java.util.function.Function<? super T,? extends U>) [METHOD]
+[WARNING] /tmp/experiments/optional-paper-counts-repos/spring-cloud-deployer-kubernetes/src/main/java/org/springframework/cloud/deployer/spi/kubernetes/KubernetesAppInstanceStatus.java:[221,23] [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.orElse(T) [METHOD]
+[WARNING] /tmp/experiments/optional-paper-counts-repos/spring-cloud-deployer-kubernetes/src/main/java/org/springframework/cloud/deployer/spi/kubernetes/KubernetesAppInstanceStatus.java:[221,16] [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.orElse(T) [METHOD]
+[WARNING] /tmp/experiments/optional-paper-counts-repos/spring-cloud-deployer-kubernetes/src/main/java/org/springframework/cloud/deployer/spi/kubernetes/KubernetesAppInstanceStatus.java:[220,20] [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<U>map(java.util.function.Function<? super T,? extends U>) [METHOD]
+[WARNING] /tmp/experiments/optional-paper-counts-repos/spring-cloud-deployer-kubernetes/src/main/java/org/springframework/cloud/deployer/spi/kubernetes/KubernetesAppInstanceStatus.java:[220,16] [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<U>map(java.util.function.Function<? super T,? extends U>) [METHOD]
+[WARNING] /tmp/experiments/optional-paper-counts-repos/spring-cloud-deployer-kubernetes/src/main/java/org/springframework/cloud/deployer/spi/kubernetes/PredicateRunningPhaseDeploymentStateResolver.java:[49,76] [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.get() [METHOD]
+[WARNING] /tmp/experiments/optional-paper-counts-repos/spring-cloud-deployer-kubernetes/src/main/java/org/springframework/cloud/deployer/spi/kubernetes/PredicateRunningPhaseDeploymentStateResolver.java:[49,72] [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.get() [METHOD]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  9.543 s
+[INFO] Finished at: 2023-12-14T12:03:24-08:00
+[INFO] ------------------------------------------------------------------------
