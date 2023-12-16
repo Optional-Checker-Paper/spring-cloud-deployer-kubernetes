@@ -43,7 +43,7 @@ public class PredicateRunningPhaseDeploymentStateResolver implements RunningPhas
 		this.properties = properties;
 	}
 
-	@SuppressWarnings("OptionalGetWithoutIsPresent") // intellij-suppression-optional-get-without-check-fp
+	@SuppressWarnings("OptionalGetWithoutIsPresent") // intellij-suppression-optional-get-without-check-tp
 	public DeploymentState resolve(ContainerStatus containerStatus) {
 
 		Stream<Predicate<ContainerStatus>> conditionsStream = Stream.of(conditions);
